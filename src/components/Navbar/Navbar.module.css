@@ -1,0 +1,70 @@
+.section{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: #ffff;
+}
+
+.container{
+    width: 80vw;
+    height: 60px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Red Hat Display', sans-serif;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    padding: 0 40px;
+}
+
+.auth{
+    display: flex;
+    align-items: center;
+}
+
+.login{
+    width: 100px;
+    height: 53px;
+    border: none solid ;
+    margin: 0 20px;
+    background-color: black;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+
+}
+
+.reg{
+    width: 100px;
+    height: 53px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
