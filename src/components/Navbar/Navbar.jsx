@@ -1,12 +1,15 @@
 import React from "react";
 import nav from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <>
       <div className={nav.section}>
         <div className={nav.container}>
-          <nav className={nav.logo}>LOGO</nav>
+          <Link to="/">
+            <nav className={nav.logo}>LOGO</nav>
+          </Link>
           <nav className={nav.list}>
             <nav className={nav.item}>See and Try</nav>
             <nav className={nav.item}>Eat</nav>
@@ -14,7 +17,9 @@ const Navbar = () => {
             <nav className={nav.item}>Blogs</nav>
           </nav>
           <nav className={nav.auth}>
-            <nav className={nav.login}>Log IN</nav>
+            <Link to="/login">
+              <nav className={nav.login}>Log In</nav>
+            </Link>
             <nav className={nav.reg}>Register</nav>
           </nav>
         </div>

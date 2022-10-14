@@ -1,8 +1,10 @@
+*{
+    text-decoration: none;
+
+}
+
 .section{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    width: 100vw;
+    width: 100%;
     height: 80px;
     display: flex;
     position: fixed;
@@ -11,22 +13,22 @@
 }
 
 .container{
-    width: 80vw;
+    width: 1160px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 10px;
     height: 60px;
-    margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: 'Red Hat Display', sans-serif;
-    position: absolute;
-    top: 20px;
-    left: 50%;
-    right: -50%;
-    transform: translate(-50%, -50%);
+    cursor: pointer;
+
 }
 
 .logo{
     display: flex;
     align-items: center;
+    font-size: 45px;
 }
 
 .list{
@@ -38,6 +40,7 @@
 .item{
     display: flex;
     padding: 0 40px;
+
 }
 
 .auth{
@@ -55,7 +58,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 10px;
 
 }
 
@@ -66,5 +69,5 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
+    border-radius: 10px;
 }
