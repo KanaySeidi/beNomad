@@ -14,10 +14,7 @@ const HomePage = () => {
           <p className={home.welcome}>
             Ready to Explore The Beauty of <br /> Wonderful Kyrgyzstan
           </p>
-          <p className={home.extra}>
-            Plan yout next vacation on the most amazing <br /> places in
-            Kyrgyzstan
-          </p>
+          <p className={home.extra}>Welcome to Kyrgyzstan</p>
           <img className={home.img1} src={image} alt="" />
           <div className={home.content}>
             <div className={home.box}>

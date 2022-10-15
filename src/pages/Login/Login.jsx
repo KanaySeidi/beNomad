@@ -15,13 +15,13 @@ const Login = () => {
             <input
               className={login.item}
               type="password"
-              placeholder="Пароль"
+              placeholder="Password"
             />
             <div className={login.cont}>
               <Link to="/">
                 <button className={login.btn}> Log In</button>
               </Link>
-              <Link>
+              <Link to="/login2">
                 <button className={login.forgot}>Forgot password</button>
               </Link>
             </div>

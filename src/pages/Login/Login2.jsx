@@ -1,5 +1,6 @@
 import React from "react";
 import log from "./Login2.module.css";
+import { Link } from "react-router-dom";
 
 const Login2 = () => {
   return (
@@ -9,14 +10,18 @@ const Login2 = () => {
           <h2 className={log.logo}>LOGO</h2>
           <div className={log.box}>
             <h4 className={log.txt}>Forgot Password</h4>
-            <p className={log.content}>
+            <div className={log.content}>
               Can't get in ? Enter your email below and we'll send you an email
               to get this sorted out.
-            </p>
+            </div>
             <input className={log.item} type="email" placeholder="Email" />
             <div className={log.cont}>
-              <button>Cancel</button>
-              <button>Send reset email</button>
+              <Link to="/login">
+                <button className={log.btn}>Cancel</button>
+              </Link>
+              <Link to="/sign">
+                <button className={log.btn}>Send reset email</button>
+              </Link>
             </div>
           </div>
         </div>

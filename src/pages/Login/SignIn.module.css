@@ -21,16 +21,11 @@
     -moz-box-shadow: 0px 10px 32px 7px rgba(0,0,0,0.6);
 }
 
-.txt{
-    margin: 10px auto 5px;
-    margin-top: 40px;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 37.5px;
-}
+
 
 .content{
-    margin: 20px auto;
+    margin: 50px auto;
+    margin-left: 180px;
     width: 504px;
     font-size: 18px;
     font-weight: 300;
@@ -52,23 +47,25 @@
 
 
 .cont{
-    margin: 50px auto;
+    margin: 0px auto;
     width: 504px;
-    text-align: end;
+    text-align: center;
 }
 
 .btn{
-    margin: 20px auto 0px;
-    width: 100px;
+    width: 160px;
     height: 56px;
     border-radius: 4px;
     border: none;
     font-size: 18px;
     color: #FFFF;
-    background-color: #BBBBBB;
+    background-color: #252525;
 }
 
-.btn:last-child{
-    width: 190px;
-    margin-left: 20px;    
+.success{
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 87px;
+    height: 87px;
+
 }
