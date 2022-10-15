@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import login from "./Login.module.css";
 
 const Login = () => {
@@ -6,16 +7,24 @@ const Login = () => {
     <>
       <section>
         <div className={login.container}>
+          <h2 className={login.logo}>LOGO</h2>
           <div className={login.box}>
-            <p className={login.txt}>Login</p>
-            <input className={login.item} type="text" placeholder="Имя" />
-            <input className={login.item} type="text" placeholder="Фамилия" />
-            <input className={login.item} type="email" placeholder="email" />
+            <p className={login.txt}>Log In</p>
+
+            <input className={login.item} type="email" placeholder="Email" />
             <input
               className={login.item}
               type="password"
               placeholder="Пароль"
             />
+            <div className={login.cont}>
+              <Link to="/">
+                <button className={login.btn}> Log In</button>
+              </Link>
+              <Link>
+                <button className={login.forgot}>Forgot password</button>
+              </Link>
+            </div>
           </div>
         </div>
       </section>

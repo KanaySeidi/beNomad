@@ -2,9 +2,13 @@ import React from "react";
 import home from "./HomePage.module.css";
 import image from "../../img/image.svg";
 import image1 from "../../img/image1.svg";
+import intro from "../../video/video.mp4";
 const HomePage = () => {
   return (
     <>
+      <video className={home.video} autoPlay loop muted>
+        <source src={intro} type="video/mp4" />
+      </video>
       <div className={home.container}>
         <div className={home.texts}>
           <p className={home.welcome}>

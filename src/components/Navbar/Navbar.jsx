@@ -1,4 +1,3 @@
-import React from "react";
 import nav from "./Navbar.module.css";
 import { Link } from "react-router-dom";
 
@@ -11,16 +10,29 @@ const Navbar = () => {
             <nav className={nav.logo}>LOGO</nav>
           </Link>
           <nav className={nav.list}>
-            <nav className={nav.item}>See and Try</nav>
-            <nav className={nav.item}>Eat</nav>
-            <nav className={nav.item}>Stay</nav>
-            <nav className={nav.item}>Blogs</nav>
+            <Link to="/see">
+              <nav className={nav.item}>See and Try</nav>
+            </Link>
+            <Link to="/eat">
+              <nav className={nav.item}>Eat</nav>
+            </Link>
+            <Link to="/stay">
+              <nav className={nav.item}>Stay</nav>
+            </Link>
+            <Link to="/enter">
+              <nav className={nav.item}>Entertainment</nav>
+            </Link>
+            <Link to="/blog">
+              <nav className={nav.item}>Blogs</nav>
+            </Link>
           </nav>
           <nav className={nav.auth}>
             <Link to="/login">
               <nav className={nav.login}>Log In</nav>
             </Link>
-            <nav className={nav.reg}>Register</nav>
+            <Link to="/reg">
+              <nav className={nav.reg}>Register</nav>
+            </Link>
           </nav>
         </div>
       </div>
@@ -29,3 +41,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+<Link to="/"></Link>;

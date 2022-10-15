@@ -1,13 +1,20 @@
+.video {
+    width: 100%;
+    height: 700px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+  }
+
 .container{
     width: 1160px;
     margin: 0 auto;
     font-family: 'Red Hat Display', sans-serif;
-
 }
 
 .texts{
     text-align: center;
-    
 }
 
 .welcome{
