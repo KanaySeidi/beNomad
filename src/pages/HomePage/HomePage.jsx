@@ -3,6 +3,7 @@ import home from "./HomePage.module.css";
 import image from "../../img/image.svg";
 import image1 from "../../img/image1.svg";
 import intro from "../../video/video.mp4";
+import Content from "../../components/Cont/Content";
 const HomePage = () => {
   return (
     <>
@@ -36,6 +37,7 @@ const HomePage = () => {
             </p>
           </div>
         </div>
+        <Content />
       </div>
     </>
   );
