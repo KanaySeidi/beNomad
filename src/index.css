@@ -17,3 +17,18 @@ code {
     monospace;
 }
 
+
+.redux-cont{
+  width: 216px;
+  margin: 0 auto;
+  margin-top: 200px;
+  padding-left: 20px;
+}
+
+.redux-cont button{
+  padding-left: 10px;
+}
+
+.redux-cont button:last-child{
+  margin-left: 20px;
+}

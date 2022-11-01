@@ -4,6 +4,7 @@ import image from "../../img/image.svg";
 import image1 from "../../img/image1.svg";
 import intro from "../../video/video.mp4";
 import Content from "../../components/Cont/Content";
+import { Link } from "react-router-dom";
 const HomePage = () => {
   return (
     <>
@@ -15,7 +16,6 @@ const HomePage = () => {
           <p className={home.welcome}>
             Ready to Explore The Beauty of <br /> Wonderful Kyrgyzstan
           </p>
-          <p className={home.extra}>Welcome to Kyrgyzstan</p>
           <img className={home.img1} src={image} alt="" />
           <div className={home.content}>
             <div className={home.box}>
@@ -34,6 +34,9 @@ const HomePage = () => {
               >
                 Learn More
               </button>
+              <Link to="/redux">
+                <nav className={home.item}>Redux</nav>
+              </Link>
             </p>
           </div>
         </div>

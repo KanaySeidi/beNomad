@@ -7,7 +7,7 @@ const Registr = () => {
     <>
       <section>
         <div className={reg.container}>
-          <h2 className={reg.logo}>LOGO</h2>
+          <h2 className={reg.logo}>be nomad</h2>
           <div className={reg.box}>
             <p className={reg.txt}>Sign Up</p>
 

@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className={nav.section}>
         <div className={nav.container}>
           <Link to="/">
-            <nav className={nav.logo}>LOGO</nav>
+            <nav className={nav.logo}>be Nomad</nav>
           </Link>
           <nav className={nav.list}>
             <Link to="/see">

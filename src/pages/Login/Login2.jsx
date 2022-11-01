@@ -7,7 +7,7 @@ const Login2 = () => {
     <div>
       <section>
         <div className={log.container}>
-          <h2 className={log.logo}>LOGO</h2>
+          <h2 className={log.logo}>be nomad</h2>
           <div className={log.box}>
             <h4 className={log.txt}>Forgot Password</h4>
             <div className={log.content}>
